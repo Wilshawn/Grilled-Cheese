@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Making a Grilled Cheese Sandwich">
+        <meta name="keywords" content="grilled, cheese, makinge, grilled cheese">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <title>Grilled Cheese Please!</title>
+        <!-- Website Stylesheet -->
+        <link href="css/stylesheet.min.css" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Grilled Cheese Please!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://worldofwilshawn.com/grilled-cheese/" />
+        <meta property="og:image" content="http://worldofwilshawn.com/grilled-cheese/img/og-image.jpg" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+    </head>
+    <body>
+
+        <!-- Navigation Section -->
+        <nav class="text-white text-center background-blue padding-1x">
+            <div class="container navigation">
+                <div class="align-justify-center align-self-center">
+                    <a href="#header"><p class="logo">GRILLED CHEESE PLEASE!</p></a>
+                </div>
+                <div class="align-self-center nav-items">
+                    <ul>
+                        <li><a href="#checklist">Checklist</a></li>
+                        <li><a href="#quick-reference">Quick Reference</a></li>
+                        <li><a href="#drag-and-drop">Drag and Drop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigation END -->
+
+        <!-- Header Section -->
+        <header id="header" class="text-white background-blue text-center">
+            <div class="container padding-5x cover">
+                <div class="align-self-center">
+                    <h1 class="bold">GRILLED CHEESE PLEASE!</h1>
+                    <h2>Making a Grilled Cheese Sandwich</h2>
+                </div>
+                <div class="align-self-end">
+                    <a href="#checklist"><i class="fas fa-angle-down fa-6x bounce"></i></a>
+                </div>
+            </div>
+        </header>
+        <!-- Header END -->
+
+        <!-- Checklist Section -->
+        <section id="checklist" class="background-white text-center text-black dotted-border-bottom padding-6x">
+            <div class="container ">
+                <div class="align-self-center checklist">
+                    <h3>CHECKLIST:</h3>
+                    <h5>Check the checkbox to proceed to the next step.</h5>
+                    <div class="margin-5x">
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Preheat skillet over medium heat.</p>
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Generously butter one side of a slice of bread.</p>
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Place bread butter-side-down onto skillet and add 1 slice of cheese.</p>
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Butter a second slice of bread on one side and place butter-side-up on top of sandwich.</p>
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Grill until lightly browned and flip over.</p>
+                        <p class="margin-2x"><i class="far fa-square fa-3x"></i>Continue grilling until cheese is melted.</p>
+                    </div>
+                    <button class="clear-all-btn margin-3x">CLEAR ALL</button>
+                </div>
+            </div>
+        </section>
+        <!-- Checklist Section END -->
+
+        <!-- Quick Reference -->
+        <section id="quick-reference" class="background-white text-center text-black dotted-border-bottom padding-6x">
+            <h3>QUICK REFERENCE:</h3>
+            <h5>Click the arrows to go to the next/previous step.</h5>
+            <div class="slideshow-container container">
+                <div class="slides fade">
+                    <div class="slider-caption">Let's Begin!</div>
+                    <img src="img/01a_pan_off_resize.png" />
+                </div>
+                
+                <div class="slides fade">
+                    <div class="slider-caption">Preheat skillet over medium heat.</div>
+                    <img src="img/01b_pan_on_resize.png" />
+                </div>
+                
+                <div class="slides fade">
+                    <div class="slider-caption">Generously butter one side of a slice of bread.</div>
+                    <img src="img/02_butter_bread_resize.png" />
+                </div>
+
+                <div class="slides fade">
+                    <div class="slider-caption">Place bread butter-side-down onto skillet.</div>
+                    <img src="img/03a_bread_in_pan_resize.png" />
+                </div>
+
+                <div class="slides fade">
+                    <div class="slider-caption">Add 1 slice of cheese.</div>
+                    <img src="img/03b_cheese_on_bread_resize.png" />
+                </div>
+
+                <div class="slides fade">
+                    <div class="slider-caption">Grill until lightly browned.</div>
+                    <img src="img/04_buttered_bread_on_top_resize.png" />
+                </div>
+
+                <div class="slides fade">
+                    <div class="slider-caption">Now Flip it over.</div>
+                    <img src="img/05_flip_reize.png" />  
+                </div>
+
+                <div class="slides fade">
+                    <div class="slider-caption">Continue grilling until cheese is melted.</div>
+                    <img src="img/06_melted_cheese_resize.png" />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+                
+            <div class="text-center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </section>
+        <!-- Quick Reference END -->
+
+        <!-- Drag and Drop Section -->
+        <section id="drag-and-drop" class="background-white text-center text-black padding-6x">
+            <h3>DRAG AND DROP:</h3>
+            <h5>Drag the options to the appropriate steps.</h5>
+            <div class="container drag-and-drop-section">
+                <div class="drag-drop-box margin-5x">
+                    <h4>OPTIONS</h4>
+                    <div id="step-one" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Preheat skillet over medium heat.</div>
+                    <div id="step-two" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Generously butter one side of a slice of bread.</div>
+                    <div id="step-three" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Place bread butter-side-down onto skillet and add 1 slice of cheese.</div>
+                    <div id="step-four" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Butter a second slice of bread on one side and place butter-side-up on top of sandwich.</div>
+                    <div id="step-five" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Grill until lightly browned and flip over.</div>
+                    <div id="step-six" class="margin-1x dotted-border padding-1x drag-and-drop-item" draggable="true" ondragstart="dragStart(event)" ondragend="dragEnd(event)">Continue grilling until cheese is melted.</div> 
+                </div>
+                <div class="drag-drop-box margin-5x">
+                    <h4>STEPS</h4>
+                    <div id="step-one-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 1</div>
+                    <div id="step-two-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 2</div>
+                    <div id="step-three-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 3</div>
+                    <div id="step-four-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 4</div>
+                    <div id="step-five-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 5</div>
+                    <div id="step-six-box" class="margin-1x border padding-1x drag-and-drop-box" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="dragOver(event)">Step 6</div>  
+                </div>
+            </div>
+            <button class="reset-all-btn margin-3x">RESET ALL</button>
+        </section>
+        <!-- Drag and Drop Section END -->
+
+
+        <!-- Footer Signature -->
+        <footer class="text-center background-blue text-white padding-1x">
+            <p>&copy; <script>   
+            var today = new Date();
+            var year = today.getFullYear();
+            document.write(year);</script> World of Wilshawn</p>
+        </footer>
+        <!-- Footer Signature End -->
+
+        <!-- JQuery Call In -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/script.min.js"></script>
+        <!-- For Drag and Drop on Mobile -->
+        <script src="js/DragDropTouch.js"></script>
+    </body>
+</html>
